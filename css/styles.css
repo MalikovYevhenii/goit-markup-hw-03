@@ -10,4 +10,11 @@
 .nav-link:hover {
   color: #2196F3;
 }
+.up-nav:focus,
+.up-nav:hover {
+  color: #2196F3;
+}
+.up-header {
+  background: #FFFFFF;
+}
 
