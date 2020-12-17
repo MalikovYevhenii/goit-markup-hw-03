@@ -1,20 +1,32 @@
-.header {
+header {
   background: #FFFFFF;
 }
+.header-link {
+  color: #212121;
 
-
-.nav-link {
-  color: brown;
 }
-.nav-link:focus,
-.nav-link:hover {
+.header-link:hover,
+.header-link:focus {
   color: #2196F3;
+}.button {
+  color: #212121;
+
 }
-.up-nav:focus,
-.up-nav:hover {
-  color: #2196F3;
+/*hero*/ 
+.hero {
+  background: #2F303A;
 }
-.up-header {
-  background: #FFFFFF;
+.hero-button{
+  background: #2196F3;
+}
+.hero-button {
+  color: #FFFFFF;
+}
+.title {
+  color: #FFFFFF;
 }
 
+/* footer */
+.main-footer {
+  background: #2F303A;
+}
