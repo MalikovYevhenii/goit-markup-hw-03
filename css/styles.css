@@ -33,6 +33,12 @@ header {
 .button {
  background-color:  var(--dark-background-color);
 }
+.main-text {
+  color: var(--dark-main-color);
+}
+.sec-text {
+  color: var(--dark-sec-color);
+}
 /*hero*/ 
 .hero {
   background: var(--dark-background-color);
@@ -46,7 +52,9 @@ header {
 .title {
   color: var(--main-color);
 }
-
+.main-background {
+  color: var(--mainbackground-color);
+}
 /* footer */
 .main-footer {
   background: var(--dark-background-color);
