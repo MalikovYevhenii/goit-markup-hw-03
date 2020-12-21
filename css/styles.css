@@ -3,8 +3,6 @@
   --secondbackground-color: #FFFFFF;
   --dark-background-color: #2F303A;
 
-  --accent-color: #2196F3;
-
   --main-color: #FFFFFF;
   --sec-color:  #2196F3;
 
@@ -28,7 +26,7 @@ header {
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--accent-color);
+  color: var(--sec-color);
 }
 .button {
  background-color:  var(--dark-background-color);
@@ -44,7 +42,7 @@ header {
   background: var(--dark-background-color);
 }
 .hero-button{
-  background: #2196F3;
+  background: var(--sec-color);
 }
 .hero-button {
   color: var(--main-color);
@@ -58,4 +56,13 @@ header {
 /* footer */
 .main-footer {
   background: var(--dark-background-color);
+}
+.addres {
+  color: var(--main-color);
+}
+.malito {
+  color: var(--dark-add-color);
+}
+.tel {
+  color: var(--dark-add-color);
 }
