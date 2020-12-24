@@ -12,25 +12,82 @@
 
 }
 
+
+
 body {
   background-color: var(--mainbackground-color);
+
+}
+.list {
+  list-style: none;
 }
 
-
-
-header {
-  background: var(--main-color);
+.main-nav {
+  background-color: var(--main-color);
 }
+
 .header-link { 
- background-color:  var(--dark-background-color);
+ background-color: var(--main-color);
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.02em
 }
 .header-link:hover,
 .header-link:focus {
   color: var(--sec-color);
 }
+.title-list {
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.main-text {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.sec-text {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+.footer-text {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+
 .button {
  background-color:  var(--dark-background-color);
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 26px;
+ text-align: center;
+ letter-spacing: 0.03em;
 }
+
 .main-text {
   color: var(--dark-main-color);
 }
@@ -58,11 +115,58 @@ header {
   background: var(--dark-background-color);
 }
 .addres {
-  color: var(--main-color);
+color: var(--main-color);
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
 }
 .malito {
   color: var(--dark-add-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
+
 .tel {
-  color: var(--dark-add-color);
+color: var(--dark-add-color);
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+.logo-web {
+  color: #2196F3;
+}
+.logo-studio {
+  color: #000000;
+}
+
+.logo-header,  
+.logo-footer > .logo-web { 
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.logo-header,
+.logo-footer > .logo-studio {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
