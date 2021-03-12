@@ -23,6 +23,12 @@ span {
   font-weight: 700;
 }
 
+ul, h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
  a {
    text-decoration: none;
  }
@@ -33,20 +39,98 @@ span {
 .main-nav {
   background-color: var(--main-color);
 }
-
-.header-link { 
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+.main-background {
+  color: var(--mainbackground-color);
 }
 
+/*Маржины и падинги HEADER*/
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+.logo-header {
+  margin-right: 93px;
+   
+}
+.header {
+  background-color: #FFFFFF;
+}
+.header-link {
+  display: block;  
+  padding: 32px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .header-link:hover,
 .header-link:focus {
   color: var(--sec-color);
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+  
+}
+
+.header > .container {
+  display: flex;
+  align-items: center;
+}
+
+
+.list {
+  display: flex;
+  align-items: center;
+}
+ 
+.list > .item:not(:last-child) {
+  display: flex;
+  margin-right: 50px;
+}
+.contact-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 32px 0;
+  
+}
+.tel-link {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 32px 0;
+}
+
+
+/*Размеры и эффекты HEROO*/
+
+.main-list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+.main-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+
 .title-list {
+  max-width: 696px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-top: 200px;
+
+
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -56,6 +140,11 @@ letter-spacing: 0.02em;
   color: var(--main-color);
 }
 .main-text {
+  display: flex;
+  padding-top: 94px;
+  margin-bottom: 10px; 
+  margin-right: 30px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -64,6 +153,9 @@ letter-spacing: 0.02em;
   color: var(--dark-main-color);
 }
 .sec-text {
+  margin-right: 30px;
+  margin-left: auto;
+
   font-weight: normal;
   font-size: 14px;
   line-height: 1.74;
@@ -71,7 +163,26 @@ letter-spacing: 0.02em;
   
  color: var(--dark-sec-color);
 }
+
+
+.img {
+  flex-basis: calc(100% / 4 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  margin-left: -30px;
+}
+
 .footer-text {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 94px;
+  
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -80,6 +191,47 @@ letter-spacing: 0.02em;
   color: var(--dark-main-color)
 }
 
+.team {
+  margin-left: -30px;
+  margin-top: -30px;
+  display: flex;
+  align-items: center;
+}
+.name-team {
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  
+  color: var(--dark-main-color);
+}
+.about-team {
+  margin-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.74;
+  letter-spacing: 0.03em;
+  
+ color: var(--dark-sec-color);
+}
+
+.card-name {
+  padding-top: 20px;
+
+}
+.about-card {
+  margin-top: 4px;
+  padding-bottom: 20px;
+}
+/*Кнопки BUTTONS*/
 
 .button {
   font-weight: 500;
@@ -89,8 +241,47 @@ letter-spacing: 0.02em;
  
   background-color:  var(--dark-background-color);
 }
+.big-button {
+  padding-bottom: 200px;
+}
+.hero-button {
+  display: block;
+  margin: auto;
+  padding: 10px 32px;
+  
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  
+  color: var(--main-color);
+  background-color: var(--sec-color);
+  }
+
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    padding-bottom: 50px;
+  
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    border-radius: 4px;
+
+  }
+
+.btn {
+  padding: 10px 32px;
+  cursor: pointer;
+  margin: auto;
+}
 
 .main-text {
+
 font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
@@ -113,27 +304,34 @@ color: var(--dark-sec-color);
   background: var(--dark-background-color);
   
 }
-
-.hero-button {
-font-weight: 700;
-font-size: 16px;
-line-height: 1.8;
-letter-spacing: 0.06em;
-
-color: var(--main-color);
-background-color: var(--sec-color);
+.main-list-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
-
-
-.main-background {
-  color: var(--mainbackground-color);
+.card-wrap {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
 }
+
 /* footer */
+.last-logo {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
 .main-footer {
-  background: var(--dark-background-color);
+display: block;
+  padding-top: 60px;
+padding-bottom: 60px;
+  
+background: var(--dark-background-color);
 }
 .addres {
+  display: block;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -141,6 +339,15 @@ background-color: var(--sec-color);
 
   color: var(--main-color);
 }
+.footer-adress {
+  display: block;
+}
+.footer-contact {
+  margin-bottom: 9px;
+  margin-top: 20px;
+
+}
+
 .malito .tel {
 font-weight: 400;
 font-size: 14px;
@@ -155,9 +362,11 @@ color: var(--dark-add-color);
 
 }
 .logo-web {
+  
   color: #2196F3;
 }
 .logo-studio {
+  
   color: #000000;
 }
 
