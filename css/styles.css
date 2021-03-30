@@ -15,7 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
 
 
-  background-color: var(--mainbackground-color);
+  background-color: var(--maincolor-color);
 }
 
 span {
@@ -65,6 +65,8 @@ ul, h1 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  color: var(--dark-main-color);
 }
 .header-link:hover,
 .header-link:focus {
@@ -106,8 +108,13 @@ ul, h1 {
   margin-left: auto;
   margin-right: 50px;
   padding: 32px 0;
-}
 
+  color: var(--dark-sec-color);
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--sec-color);
+}
 
 /*Размеры и эффекты HEROO*/
 
@@ -136,6 +143,7 @@ ul, h1 {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   
   color: var(--main-color);
 }
@@ -149,6 +157,7 @@ ul, h1 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   
   color: var(--dark-main-color);
 }
@@ -169,6 +178,12 @@ ul, h1 {
   flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
+  }
+.img-background {
+  border-radius: 0px;
 }
 
 .gallery {
@@ -196,6 +211,7 @@ ul, h1 {
   margin-top: -30px;
   display: flex;
   align-items: center;
+  padding-bottom: 94px;
 }
 .name-team {
 
@@ -224,12 +240,28 @@ ul, h1 {
 }
 
 .card-name {
-  padding-top: 20px;
+  margin-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--dark-main-color)
 
 }
 .about-card {
   margin-top: 4px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--dark-sec-color)
 }
 /*Кнопки BUTTONS*/
 
@@ -240,9 +272,12 @@ ul, h1 {
   letter-spacing: 0.03em;
  
   background-color:  var(--dark-background-color);
+  border-radius: 4px;
 }
 .big-button {
   padding-bottom: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .hero-button {
   display: block;
@@ -309,12 +344,19 @@ color: var(--dark-sec-color);
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+  
 }
 
 .card-wrap {
+  align-items: center;
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc(100% / 3 - 30px);
+
+  
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+ 
+  background: var(--main-color)
 }
 
 /* footer */
@@ -325,8 +367,9 @@ color: var(--dark-sec-color);
 
 .main-footer {
 display: block;
-  padding-top: 60px;
+margin-top: 94px;;
 padding-bottom: 60px;
+padding-top: 60px;
   
 background: var(--dark-background-color);
 }
@@ -347,15 +390,10 @@ background: var(--dark-background-color);
   margin-top: 20px;
 
 }
-
-.malito .tel {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-  
-  color: var(--dark-add-color);
+.footer-tel {
+ color: rgba(255, 255, 255, 0.6);;
 }
+
 
 .tel {
 color: var(--dark-add-color);
