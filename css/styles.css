@@ -49,6 +49,7 @@ ul, h1 {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  padding-bottom: 94px;
 
 }
 .logo-header {
@@ -122,6 +123,8 @@ ul, h1 {
   display: flex;
   margin-left: -30px;
   margin-top: 10px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .main-item {
   flex-basis: calc(100% / 4 - 30px);
@@ -135,6 +138,7 @@ ul, h1 {
   margin: 0 auto;
   margin-bottom: 40px;
   padding-top: 200px;
+  padding-bottom: 200px;
 
 
 
@@ -336,14 +340,35 @@ color: var(--dark-sec-color);
 /*hero*/ 
 
 .hero {
+  padding-top: 32px;
+  padding-bottom: 94px;
+  
+  
   background: var(--dark-background-color);
+
+}
+.sec-hero {
+padding-top: 94px;
+padding-bottom: 94px;
+
+}
+.study-section {
+  padding-bottom: 94px;
+}
+
+.team-section{
+  padding-top: 94px;
   
 }
+
+
+
 .main-list-wrap {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+  
   
 }
 
@@ -388,6 +413,15 @@ background: var(--dark-background-color);
 .footer-contact {
   margin-bottom: 9px;
   margin-top: 20px;
+
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
 
 }
 .footer-tel {
