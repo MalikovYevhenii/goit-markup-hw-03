@@ -65,14 +65,18 @@ p {
 .header {
   display: flex;
   align-items: center;
+  border: 1px solid #ececec;
 
-  background-color: #ffffff;
+  background-color: var(--main-color);
 }
 .header-link {
   display: block;
+
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.02em;
 
   padding-top: 32px;
@@ -144,9 +148,12 @@ p {
   margin-bottom: 40px;
   padding-top: 200px;
 
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 60px;
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -157,19 +164,24 @@ p {
   display: flex;
   /* padding-top: 94px; */
 
-  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--dark-main-color);
 }
 .sec-text {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+
   margin-top: 10px;
   margin-bottom: 10px;
 
@@ -190,7 +202,7 @@ p {
 .footer-text {
   text-align: center;
 
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -275,7 +287,7 @@ p {
 }
 /*Кнопки BUTTONS*/
 
-.button {
+/* .button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -283,12 +295,8 @@ p {
 
   background-color: var(--dark-background-color);
   border-radius: 4px;
-}
-.big-button {
-  padding-bottom: 200px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
+} */
+
 .hero-button {
   display: block;
   margin: auto;
@@ -299,6 +307,9 @@ p {
   line-height: 1.8;
   letter-spacing: 0.06em;
   cursor: pointer;
+
+  border: 0;
+  border-radius: 4px;
 
   color: var(--main-color);
   background-color: var(--sec-color);
@@ -315,18 +326,31 @@ p {
   align-items: center;
   margin-left: 8px;
   border-radius: 4px;
+  background: var(--sec-background-color);
 }
 
 .btn {
-  padding: 10px 32px;
   cursor: pointer;
-  margin: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /*hero*/
 
 .hero {
   background: var(--dark-background-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .study-section {
@@ -415,17 +439,23 @@ p {
 }
 .logo-web {
   color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
 }
 .logo-studio {
   color: #000000;
-}
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
 
-.logo-header,
-.logo-footer > .logo-web {
-  color: #000000;
-}
-
-.logo-header,
-.logo-footer > .logo-studio {
-  color: #ffffff;
+  letter-spacing: 0.03em;
 }
