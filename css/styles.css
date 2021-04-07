@@ -122,10 +122,9 @@ p {
 .tel-link {
   display: flex;
   align-items: center;
-  /* margin-left: auto; */
-  /* margin-right: 50px; */
-  /* padding-top: 32px; */
-  /* padding-bottom: 32px; */
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--dark-sec-color);
 }
@@ -167,7 +166,7 @@ p {
 }
 .main-text {
   display: flex;
-  /* padding-top: 94px; */
+  margin-bottom: 10px;
 
   font-family: Roboto;
   font-style: normal;
@@ -207,7 +206,7 @@ p {
 .footer-text {
   text-align: center;
   padding-bottom: 50px;
-  padding-top: 94px;
+  /* padding-top: 94px; */
 
   /* margin-bottom: 50px; */
 
@@ -296,16 +295,6 @@ p {
 }
 /*Кнопки BUTTONS*/
 
-/* .button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-
-  background-color: var(--dark-background-color);
-  border-radius: 4px;
-} */
-
 .hero-button {
   display: block;
   margin: auto;
@@ -353,6 +342,7 @@ p {
 
   text-align: center;
   letter-spacing: 0.03em;
+
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 20px;
@@ -372,9 +362,10 @@ p {
 }
 
 .team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   background-color: var(--sec-background-color);
-  /* padding-top: 94px; */
-  margin-bottom: 94px;
 }
 
 .main-list-wrap {
@@ -391,10 +382,10 @@ p {
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2); */
 
   background: var(--main-color);
 }
@@ -410,7 +401,6 @@ p {
 
 /* footer */
 .last-logo {
-  /* padding-top: 60px; */
   margin-bottom: 20px;
 }
 
@@ -434,7 +424,7 @@ p {
   display: block;
 }
 .footer-contact {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-street {
